@@ -1,0 +1,26 @@
+.contenedor-filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 30px;
+    padding: 0 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+select {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 5px;
+    cursor: pointer;
+}

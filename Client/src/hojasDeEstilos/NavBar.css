@@ -1,0 +1,24 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.484);
+
+}
+.container-link{
+    display: flex;
+    gap: 50px;
+    padding-left: 30px;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    filter:alpha(opacity=90); opacity:0.9;
+}
+
+.link:hover {
+    color: #ffc107;
+}

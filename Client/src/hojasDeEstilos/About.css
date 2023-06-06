@@ -1,0 +1,48 @@
+.img {
+    height: 90vh;
+    width: 100%;
+}
+.abuot-contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.about-adicional-info{
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    transform: translate(-60%);
+}
+
+.card-info {
+    filter:alpha(opacity=50); opacity:0.5;
+    background-color: #0d0d0d;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 55px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellow;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,43 @@
+.container{
+    width: 320px;
+    height: 30px;
+    background-color: rgb(36, 35, 35);
+	filter:alpha(opacity=50); opacity:0.6;
+    position: relative;
+    border-radius: 8px;
+    margin: 0 20px 0px 20px;
+}
+.input{
+    width: 80%;
+    height: 100%;
+	color: white;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+}
+
+.input:focus {
+    outline: none;
+    padding-left: 10px;
+  }
+
+.btn{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 65px;
+	height: 30px;
+    color: rgb(189, 183, 183);
+    background-color: rgb(5, 5, 5);
+    filter:alpha(opacity=90); opacity:0.9;
+	line-height: 10px;
+	border-radius: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn:hover{
+	background-color: rgb(230, 219, 219);
+	color: black;
+}
